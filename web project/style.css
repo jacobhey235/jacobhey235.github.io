@@ -1,0 +1,303 @@
+body{
+    padding: 10px;
+    background-image: url("img/gradient.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+@font-face{
+    font-family: "Blogger-sans";
+    src: url("blogger-sans/Blogger_Sans.otf");
+}
+@font-face{
+    font-family: "CaviarDreams";
+    src: url("Caviar-Dreams/CaviarDreams.ttf");
+}
+nav{
+    text-align: center;
+    transition: 0.3s;
+}
+.links{
+    display: inline-block;
+    font-family: 'CaviarDreams';
+    background-color: darkslategray;
+    color: darkorange;
+    transition: 0.3s;
+    border: 1px dashed #001;
+    padding: 10px;
+    height: 100%;
+    width: 25%;
+    margin: 10px 85px;
+    font-size: 25px;
+}
+a{
+    color: aqua;
+    transition: 0.3s;
+}
+footer{
+    width: 100%;
+    height: 25%;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+a:hover{
+    color: #fff;
+    transition: 0.3s;
+    text-shadow: 2px 2px 2px #003;
+}
+a:visited{
+    color: cornflowerblue;
+}
+.synth{
+    text-align: center;
+    margin: 20px 0px;
+    transition: 0.3s;
+}
+.synth img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+.synth img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+header img{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+.ylogo{
+    background-color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    padding: 40px 0px;
+    border: 2px solid black;
+}
+.ylogo img{
+    width: 500px;
+    height: 100px;
+    transition: 0.3s;
+}
+.txt h2{
+    background-color: #000;
+    padding: 15px;
+    border: 3px groove #ffe;
+    box-shadow: 1px 1px 3px 3px #000;
+}
+.txt{
+    color: beige;
+    font-family: 'Blogger-sans';
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+    transition: 0.3s;
+}
+.txt img{
+    width: 100%;
+    border: 2px solid #000;
+    transition: 0.3s;
+}
+.txt img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+.name{
+    text-align: center;
+    font-family: 'CaviarDreams';
+    color: #fff;
+    transition: 0.3s;
+}
+.john{
+    text-align: center;
+    margin: 20px 0px;
+    transition: 0.3s;
+}
+.john img{
+    width: 70%;
+    height: 70%;
+    border: 2px solid #000;
+    transition: 0.3s;
+}
+.john img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+.synth2{
+    text-align: center;
+    margin: 20px 0px;
+    transition: 0.3s;
+}
+.synth2 img{
+    width: 90%;
+    height: 90%;
+    border: 2px solid #000;
+    margin: 10px;
+    transition: 0.3s;
+}
+.synth2 img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+.refc{
+    margin-bottom: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+.refc img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+.refc img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 2px solid #000;
+    transition: 0.3s;
+}
+.vst1{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    transition: 0.3s;
+}
+.vst1 img{
+    width: 302px;
+    height: 219px;
+    margin: 20px;
+    transition: 0.3s;
+    vertical-align: middle;
+    border: 5px groove #fff;
+}
+.vst1 img:hover{
+    box-shadow: 4px 7px 7px 3px #000;
+    transform: scale(1.005);
+    transition: 0.3s;
+}
+@media(min-width: 750px) and (max-width: 900px){
+    .links{
+        border: 1px dashed #001;
+        transition: 0.3s;
+        transform: scale(1.1);
+        display: inline-block;
+        margin: 0 auto;
+        margin: 0px 75px;
+    }
+    body{
+        padding: 20px;
+        transition: 0.3s;
+    }
+    .refc{
+        transform: scale(0.6);
+        transition: 0.3s;
+    }
+    .refc img{
+        transform: scale(1.5);
+    }
+    .refc img:hover{
+        transform: scale(1.55);
+        transition: 0.3s;
+    }
+    .vst1 img{
+        transform: scale(0.9);
+        margin: 0 auto;
+        margin: 10px;
+        vertical-align: middle;
+    }
+    .vst1{
+        transform: scale(1,1.1);
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 750px) and (min-width: 350px){
+    .ylogo img{
+        width: 75%;
+        height: 75%;
+        transition: 0.3s;
+    }
+    p{
+        font-size: 25px;
+        transition: 0.3s;
+    }
+    a{
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .links{
+        margin: 0 auto;
+        margin: 0px 20px;
+        border: 1px dashed #001;
+        transition: 0.3s;
+        transform: scale(0.75);
+    }
+    .refc img:hover{
+        transform: scale(0.5);
+    }
+    .synth2{
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    body{
+        margin: 0 auto;
+    }
+    header img{
+        margin: 0 auto;
+    }
+    .txt h2{
+        font-size: 20px;
+    }
+}
+@media(max-width: 350px){
+    .ylogo img{
+        width: 75%;
+        height: 75%;
+        transition: 0.3s;
+    }
+    p{
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    a{
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    .links{
+        border: 1px dashed #001;
+        transition: 0.3s;
+        transform: scale(0.8);
+        display: inline-block;
+        margin: 0 auto;
+        margin: 0px 20px;
+    }
+    .synth2{
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    .vst1{
+        text-align: center;
+        position: relative;
+        right: 15px;
+    }
+    .vst1 img{
+        transform: scale(0.7);
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    .vst1 img:hover{
+        transform: scale(0.75);
+        transition: 0.3s;
+    }
+    .txt h2{
+        font-size: 15px;
+    }
+}
